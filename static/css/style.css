@@ -1,0 +1,54 @@
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
+
+
+.card img{
+    object-fit: cover;
+    height:250px;
+    width:300px;
+}
+
+.old_price{
+    font-weight: bold;
+    color:red;
+
+}
+
+.new_price{
+
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding:2px;
+    border-radius: 5px;
+}
+
+.pic-box{
+    position: relative;
+}
+    
+.hot{
+    background-color: orangered;
+    color:white;
+    width:50px;
+    font-weight: bold;
+    border-radius:5px ;
+    padding:6px;    
+    display:inline;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:12;
+    text-align: center;
+}
+
+.card-container{
+    display:inline-block;
+    
+
+
+}
